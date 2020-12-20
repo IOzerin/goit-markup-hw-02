@@ -157,6 +157,7 @@ footer address {
 
 /* --- PORTFOLIO --- */
 .portfolio-buttons {
+  background: var(--c-grey);
   width: 128px;
   height: 38px;
   border: none;
