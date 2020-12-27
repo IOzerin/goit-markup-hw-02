@@ -26,12 +26,26 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
+nav {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--txt-c-dark);
+}
+
 address {
   font-style: normal;
 }
 
 address a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
 }
 
 h1 {
@@ -113,10 +127,6 @@ h6 {
   display: flex;
 }
 
-.team-member-photo {
-  width: 270px;
-}
-
 .team-member {
   width: 270px;
   background: var(--c-light);
@@ -137,6 +147,10 @@ h6 {
 /* --- FOOTER --- */
 footer {
   background: var(--c-dark);
+}
+
+footer a {
+  text-decoration: none;
 }
 
 footer .logo {
@@ -192,6 +206,14 @@ footer address {
 
 .project-preview-picture {
   width: 370px;
+}
+
+.project-preview a {
+  text-decoration: none;
+}
+
+.project-preview h4 {
+  color: var(--txt-c-dark);
 }
 
 .project-preview p {
